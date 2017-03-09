@@ -25,6 +25,7 @@
         }.bind(this));
     };
 
+    //Creating a new function to address testing on QUnit with myTruck
     Truck.prototype.returnOrders = function() {
         return Object(this.db.getAll());
     };
